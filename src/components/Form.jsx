@@ -11,7 +11,7 @@ const Form = ({ addItem }) => {
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevent default form submission behavior
     if (!newItemName) {
-      toast.error("pleaase provide a value");
+      toast.error("please provide a value");
 
       return;
     } // If the input is empty, do nothing
